@@ -1,0 +1,285 @@
+.header{
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+.main-nav{
+    font-size: 1.4rem;
+    background-color: rgba(0,0,0,0.9);
+    color: #f5f5f7;
+    height: 48px;
+}
+
+.main-nav a{
+    color: #f5f5f7;
+    text-decoration: none;
+}
+
+.main-nav .grid{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    
+}
+
+.fa-apple{
+    font-size: 2rem;
+}
+
+.ip12{
+    text-align: center;
+    background-image: url(/assets/img/iphone_12_updated__jepm2xpxncuy_large.jpg);
+    background-position: center;
+    height: 628px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 48px;
+}
+
+.ip12__title{
+    font-size: 5.6rem;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.ip12__sub-title{
+    font-size: 2.8rem;
+    margin-top: 6px;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+
+.ip12__link{
+    margin-top: 14px;
+}
+
+.ip12-pro{
+    background-image: url(/assets/img/bg2.jpg);
+    color: white;
+    margin: 10px 0;
+}
+
+.video-promo{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.video-promo__video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.video-promo__logo{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-promo__logo a{
+    padding-top: 5px;
+    font-size: 2.1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.another-product{
+    color: black;
+    background-color: white;
+    top: 750px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.another-product h2{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.another-product p{
+    font-size: 2.1rem;
+}
+
+.ipad,.watch,.airtag,.arcade,.imac,.one{
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ipad{
+    background-image: url(/assets/img/promo_ipad_pro__c529dk533k4m_large.jpg);
+    color: white;
+}
+
+.watch{
+    background-image: url(/assets/img/promo_watch_series_6_lte__f8lrasjnry2y_large.jpg);
+    color: white;
+}
+
+.arcade{
+    background-image: url(/assets/img/promo_arcade__e7ps46tldi62_large.jpg);
+}
+
+.airtag{
+    background-image: url(/assets/img/promo_airtag__e6b73a64nno2_large.jpg);
+}
+
+.imac{
+    background-image: url(/assets/img/promo_imac__crg641tip4q6_large.jpg);
+}
+
+.one{
+    background-image: url(/assets/img/tile__cauwwcyyn9hy_large.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #FBFBFD;
+}
+
+.another-product__col1, .another-product__col2{
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row{
+    padding-top: 10px;
+}
+
+.content{
+    padding-top: 50px;
+}
+
+.button-link{
+    margin-top: 10px;
+}
+
+.button-link a{
+    text-decoration: none;
+    font-size: 2.1rem;
+    color: #06c;
+}
+
+.button-link a + a{
+    padding-left: 30px;
+}
+
+.fa-chevron-right{
+    font-size: 15px;
+}
+
+.footer{
+    background-color: #F5F5F7;
+    text-align:start;
+}
+
+.footer__content{
+    font-size: 1.2rem;
+    padding: 20px 0;
+}
+
+.footer__content{
+    list-style: none;
+}
+
+.footer__content li + li{
+    padding-top: 10px;
+}
+
+.footer__links{
+    display: flex;
+}
+
+.footer__links__col ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer__links__col li + li{
+    padding-top: 10px;
+}
+
+.footer__links__col li{
+    list-style: none;
+}
+
+.footer__links a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #515154;
+}
+
+.footer__links h3{
+    font-size: 1.2rem;
+}
+
+.footer__links__col{
+    flex-basis: 25%;
+}
+
+.the-last{
+    padding-top: 100px;
+}
+
+.the-last__find-retailer{
+    font-size: 1.2rem;
+    color:#8f8f95;
+}
+
+.the-last__find-retailer a{
+    color: #06c;
+    text-decoration: none;
+}
+
+.the-last__copyright{
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+.the-last__copyright ul{
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+}
+
+.the-last__copyright li{
+    display: inline-block;
+    list-style: none;
+}
+
+.the-last__copyright li + li{
+    margin-left: 10px;
+}
+
+.the-last__copyright p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    color:#8f8f95;
+
+}
+
+.the-last__copyright a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #535356;
+}
+
+.the-last__block1{
+    display: flex;
+}
