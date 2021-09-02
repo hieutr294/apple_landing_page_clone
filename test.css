@@ -1,0 +1,9 @@
+nav{
+    background-color: red;
+}
+
+@media only screen and (min-width: 740px){
+    nav{
+        background-color: blue;
+    }
+}

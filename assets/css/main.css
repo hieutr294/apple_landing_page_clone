@@ -12,6 +12,12 @@
     height: 48px;
 }
 
+.main-nav__product{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
 .main-nav a{
     color: #f5f5f7;
     text-decoration: none;
@@ -99,7 +105,6 @@
     background-color: white;
     top: 750px;
     width: 100%;
-    display: flex;
     text-align: center;
 }
 
@@ -110,6 +115,15 @@
 
 .another-product p{
     font-size: 2.1rem;
+}
+
+.another-product__row1, .another-product__row2, .another-product__row3{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .ipad,.watch,.airtag,.arcade,.imac,.one{
@@ -148,16 +162,13 @@
     background-color: #FBFBFD;
 }
 
-.another-product__col1, .another-product__col2{
-    padding: 0;
-    margin: 0;
-    width: 50%;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 .row{
     padding-top: 10px;
+    flex-basis: 50%;
+}
+
+.row + .row{
+    padding-left: 10px;
 }
 
 .content{
@@ -282,4 +293,70 @@
 
 .the-last__block1{
     display: flex;
+}
+
+
+/* width < 740px */
+
+@media only screen and (max-width: 46.1875em){
+    .ip12{
+        background-image: url(/assets/img/responsive/bg1.jpg);
+    }
+
+    .ip12-pro{
+        background-image: url(/assets/img/responsive/iphone_12_pro_us__e5oyysg4k0ya_small_2x.jpg);
+    }
+
+    .ip12__title, .content{
+        font-size: 3.2rem;
+    }
+    
+    .ip12__sub-title{
+        font-size: 1.9rem;
+    }
+
+    .button-link a{
+        font-size: 1.7rem;
+    }
+
+    .another-product__row1, .another-product__row2, .another-product__row3{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .row + .row{
+        padding-left: 0;
+    }
+
+    .another-product h2{
+        font-size: 3.7rem;
+    }
+
+    .another-product p{
+        font-size: 1.9rem;
+    }
+
+    .ipad{
+        background-image: url(/assets/img/responsive/promo_ipad_pro__c529dk533k4m_small_2x.jpg);
+        background-size: cover;
+    }
+
+    .imac{
+        background-image: url(/assets/img/responsive/promo_imac__crg641tip4q6_small_2x.jpg);
+        background-size: cover;
+    }
+
+    .arcade{
+        background-image: url(/assets/img/responsive/promo_arcade__e7ps46tldi62_small.jpg);
+        background-size: cover;
+    }
+
+    .one{
+        background-image: url(/assets/img/responsive/tile__cauwwcyyn9hy_small.jpg);
+    }
+
+    .airtag{
+        background-image: url(/assets/img/responsive/promo_airtag__e6b73a64nno2_small.jpg);
+        background-size: cover;
+    }
 }

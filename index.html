@@ -16,16 +16,20 @@
                 <nav class="main-nav">
 
                     <div class="grid">
-                        <i class="fab fa-apple"></i>
-                        <a href="">Mac</a>
-                        <a href="">iPad</a>
-                        <a href="">iPhone</a>
-                        <a href="">Watch</a>
-                        <a href="">TV</a>
-                        <a href="">Music</a>
-                        <a href="">Support</a>
-                        <a href="">Where to Buy</a>
-                        <i class="fas fa-search"></i>
+                        <div class="main-nav__logo">
+                            <i class="fab fa-apple"></i>
+                        </div>
+                        <div class="main-nav__product">
+                            <a href="">Mac</a>
+                            <a href="">iPad</a>
+                            <a href="">iPhone</a>
+                            <a href="">Watch</a>
+                            <a href="">TV</a>
+                            <a href="">Music</a>
+                            <a href="">Support</a>
+                            <a href="">Where to Buy</a>
+                            <i class="fas fa-search"></i>
+                        </div>
                     </div>
 
                 </nav>
@@ -51,7 +55,10 @@
             
             <div class="apple-tv">
                 <div class="video-promo">
-                    <video class="video-promo__video" src="/assets/video/large.mp4"></video>
+                    <video class="video-promo__video">
+                        <source>
+                        <!-- <source src="/assets/img/responsive/small_2x.mp4" type="video/mp4" media="screen and (min-width:740px)"> -->
+                    </video>
                     <div class="video-promo__logo">
                         <img src="/assets/img/tvplus_logo__btu9ev94y8mu_large.png" alt="">
                         <img src="/assets/img/see_logo__f9y04qf5r6ye_large.png" alt="">
@@ -60,99 +67,103 @@
                 </div>
             </div>
         
-                <div class="another-product">
-                    <div class="another-product__col1">
-                        <div class="row">
-                            <div class="ipad">
-                                <div class="content">
-                                    <h2>iPad Pro</h2>
-                                    <p>Supercharged by the Apple M1 chip</p>
-                                </div>
-                                <div class="button-link">
-                                    <a href="#">Learn more <i class="fas fa-chevron-right"></i></a>
-                                    <a href="#">Buy <i class="fas fa-chevron-right"></i></a>
-                                </div>
+            <div class="another-product">
+                <div class="another-product__row1">
+                    <div class="row">
+                        <div class="ipad">
+                            <div class="content">
+                                <h2>iPad Pro</h2>
+                                <p>Supercharged by the Apple M1 chip</p>
+                            </div>
+                            <div class="button-link">
+                                <a href="#">Learn more <i class="fas fa-chevron-right"></i></a>
+                                <a href="#">Buy <i class="fas fa-chevron-right"></i></a>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="row">
+                    <div class="row">
 
-                            <div class="airtag">
-                                <div class="content">
-                                    <h2>AirTag</h2>
-                                    <p>Lose your knack for losing things</p>
-                                </div>
-                                <div class="button-link">
-                                    <a href="#">Learn more <i class="fas fa-chevron-right"></i></a>
-                                    <a href="#">Buy <i class="fas fa-chevron-right"></i></a>
-                                </div>
+                        <div class="watch">
+                            <div class="content">
+                                <img src="/assets/img/promo_logo_watch_series_6_lte__el1kwqt2v52e_large.png" alt="">
+                                <p>ECG app is here</p>
                             </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="arcade">
-                                <div class="content">
-                                    <img src="/assets/img/logo__dcojfwkzna2q_large.png" alt="">
-                                    <p>Supercharged by the Apple M1 chip</p>
-                                </div>
-                                <div class="button-link">
-                                    <a href="#">Learn more <i class="fas fa-chevron-right"></i></a>
-                                    <a href="#">Buy <i class="fas fa-chevron-right"></i></a>
-                                </div>
+                            <div class="button-link">
+                                <a href="#">Learn more <i class="fas fa-chevron-right"></i></a>
+                                <a href="#">Buy <i class="fas fa-chevron-right"></i></a>
                             </div>
                         </div>
 
                     </div>
 
-                    <div class="another-product__col2">
+                </div>
 
-                        <div class="row">
-    
-                            <div class="watch">
-                                <div class="content">
-                                    <img src="/assets/img/promo_logo_watch_series_6_lte__el1kwqt2v52e_large.png" alt="">
-                                    <p>ECG app is here</p>
-                                </div>
-                                <div class="button-link">
-                                    <a href="#">Learn more <i class="fas fa-chevron-right"></i></a>
-                                    <a href="#">Buy <i class="fas fa-chevron-right"></i></a>
-                                </div>
+                <div class="another-product__row2">
+
+                    <div class="row">
+
+                        <div class="airtag">
+                            <div class="content">
+                                <h2>AirTag</h2>
+                                <p>Lose your knack for losing things</p>
                             </div>
+                            <div class="button-link">
+                                <a href="#">Learn more <i class="fas fa-chevron-right"></i></a>
+                                <a href="#">Buy <i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="row">
+
+                        <div class="imac">
+                            <div class="content">
+                                <h2>iMac</h2>
+                                <p>Say hello</p>
+                            </div>
+                            <div class="button-link">
+                                <a href="#">Learn more <i class="fas fa-chevron-right"></i></a>
+                                <a href="#">Buy <i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="another-product__row3">
+
+                    <div class="row">
+                        <div class="arcade">
+                            <div class="content">
+                                <img src="/assets/img/logo__dcojfwkzna2q_large.png" alt="">
+                                <p>Supercharged by the Apple M1 chip</p>
+                            </div>
+                            <div class="button-link">
+                                <a href="#">Learn more <i class="fas fa-chevron-right"></i></a>
+                                <a href="#">Buy <i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="one">
+                            <div class="content">
+                                <img src="/assets/img/logo__one_large.png" alt="">
+                                <p>Bundle four Apple services. <br> And enjoy more for less</p>
+                            </div>
+                            <div class="button-link">
+                                <a href="#">Learn more <i class="fas fa-chevron-right"></i></a>
+                                <a href="#">Buy <i class="fas fa-chevron-right"></i></a>
+                            </div>
                         </div>
 
-                        <div class="row">
-
-                            <div class="imac">
-                                <div class="content">
-                                    <h2>iMac</h2>
-                                    <p>Say hello</p>
-                                </div>
-                                <div class="button-link">
-                                    <a href="#">Learn more <i class="fas fa-chevron-right"></i></a>
-                                    <a href="#">Buy <i class="fas fa-chevron-right"></i></a>
-                                </div>
-                            </div>
-                            
-                        </div>
-
-                        <div class="row">
-
-                            <div class="one">
-                                <div class="content">
-                                    <img src="/assets/img/logo__one_large.png" alt="">
-                                    <p>Bundle four Apple services. <br> And enjoy more for less</p>
-                                </div>
-                                <div class="button-link">
-                                    <a href="#">Learn more <i class="fas fa-chevron-right"></i></a>
-                                    <a href="#">Buy <i class="fas fa-chevron-right"></i></a>
-                                </div>
-                            </div>
-
-                        </div>
                     </div>
                 </div>
             </div>
+            
             <footer class="footer">
                 <div class="grid">
                     <ul class="footer__content">
@@ -335,6 +346,38 @@
                 </div>
             </footer>
         </div>
+
+        <script>
+            var video = document.getElementsByTagName('video')[0]
+            var source = video.getElementsByTagName('source')[0]
+            var screenWidth = screen.width
+
+            if(screenWidth<741){
+                source.src = "/assets/img/responsive/small_2x.mp4"
+                video.load()
+            }else if(screenWidth > 741 && screenWidth < 768){
+                source.src = "/assets/img/responsive/medium_2x.mp4"
+                video.load()
+            }else{
+                source.src = "/assets/video/large.mp4"
+                video.load()
+            }
+
+            window.addEventListener("resize", function(){
+                if(screen.width<741){
+                    source.src = "/assets/img/responsive/small_2x.mp4"
+                    video.load()
+                }else if(screen.width > 741 && screen.width < 768){
+                    source.src = "/assets/img/responsive/medium_2x.mp4"
+                    video.load()
+                }
+                else{
+                    source.src = "/assets/video/large.mp4"
+                    video.load()
+                }           
+            })
+            
+        </script>
 
     </body>
 
