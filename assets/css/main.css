@@ -309,7 +309,7 @@
 
 /* width < 740px */
 
-@media only screen and (max-width: 46.1875em){
+@media only screen and (max-width: 47.9375em){
     .main-nav .grid{
         justify-content:unset
     }
@@ -538,5 +538,15 @@
     .the-last__block1 ul{
         padding-left: 0;
         padding-top: 5px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {    
+    .header .grid{
+        padding:0 20px
+    }
+    
+    .footer .grid{
+        padding: 0 20px;
     }
 }
