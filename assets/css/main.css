@@ -72,7 +72,7 @@
 }
 
 .ip12{
-    background-image: url(/assets/img/iphone_12_updated__jepm2xpxncuy_large.jpg);
+    background-image: url(apple_landing_page_clone/assets/img/iphone_12_updated__jepm2xpxncuy_large.jpg);
 }
 
 .general-hero__title{
@@ -93,13 +93,13 @@
 }
 
 .ip12-pro{
-    background-image: url(/assets/img/bg2.jpg);
+    background-image: url(apple_landing_page_clone/assets/img/bg2.jpg);
     color: white;
     margin: 10px 0;
 }
 
 .ipad-pro{
-    background-image: url(/assets/img/hero_ipad_pro_non_avail__fcrsmhs4b7ma_large.jpg);
+    background-image: url(apple_landing_page_clone/assets/img/hero_ipad_pro_non_avail__fcrsmhs4b7ma_large.jpg);
     color: white;
 }
 
@@ -138,29 +138,29 @@
 }
 
 .ipad{
-    background-image: url(/assets/img/promo_ipad_pro__c529dk533k4m_large.jpg);
+    background-image: url(apple_landing_page_clone/assets/img/promo_ipad_pro__c529dk533k4m_large.jpg);
     color: white;
 }
 
 .watch{
-    background-image: url(/assets/img/promo_watch_series_6_lte__f8lrasjnry2y_large.jpg);
+    background-image: url(apple_landing_page_clone/assets/img/promo_watch_series_6_lte__f8lrasjnry2y_large.jpg);
     color: white;
 }
 
 .arcade{
-    background-image: url(/assets/img/promo_arcade__e7ps46tldi62_large.jpg);
+    background-image: url(apple_landing_page_clone/assets/img/promo_arcade__e7ps46tldi62_large.jpg);
 }
 
 .airtag{
-    background-image: url(/assets/img/promo_airtag__e6b73a64nno2_large.jpg);
+    background-image: url(apple_landing_page_clone/assets/img/promo_airtag__e6b73a64nno2_large.jpg);
 }
 
 .imac{
-    background-image: url(/assets/img/promo_imac__crg641tip4q6_large.jpg);
+    background-image: url(apple_landing_page_clone/assets/img/promo_imac__crg641tip4q6_large.jpg);
 }
 
 .one{
-    background-image: url(/assets/img/tile__cauwwcyyn9hy_large.jpg);
+    background-image: url(apple_landing_page_clone/assets/img/tile__cauwwcyyn9hy_large.jpg);
     background-size: auto;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -168,7 +168,7 @@
 }
 
 .apple_tv{
-    background-image: url(/assets/img/apple_tv_promo.jpg);
+    background-image: url(apple_landing_page_clone/assets/img/apple_tv_promo.jpg);
     justify-content: end;
     color: white;
 }
@@ -422,15 +422,15 @@
     }
 
     .ip12{
-        background-image: url(/assets/img/responsive/bg1.jpg);
+        background-image: url(apple_landing_page_clone/assets/img/responsive/bg1.jpg);
     }
 
     .ip12-pro{
-        background-image: url(/assets/img/responsive/iphone_12_pro_us__e5oyysg4k0ya_small_2x.jpg);
+        background-image: url(apple_landing_page_clone/assets/img/responsive/iphone_12_pro_us__e5oyysg4k0ya_small_2x.jpg);
     }
 
     .ipad-pro{
-        background-image: url(/assets/img/responsive/promo_ipad_pro__c529dk533k4m_small_2x.jpg);
+        background-image: url(apple_landing_page_clone/assets/img/responsive/promo_ipad_pro__c529dk533k4m_small_2x.jpg);
     }
 
     .general-hero__title, .content{
@@ -463,31 +463,31 @@
     }
 
     .ipad{
-        background-image: url(/assets/img/responsive/promo_ipad_pro__c529dk533k4m_small_2x.jpg);
+        background-image: url(apple_landing_page_clone/assets/img/responsive/promo_ipad_pro__c529dk533k4m_small_2x.jpg);
         background-size: cover;
     }
 
     .imac{
-        background-image: url(/assets/img/responsive/promo_imac__crg641tip4q6_small_2x.jpg);
+        background-image: url(apple_landing_page_clone/assets/img/responsive/promo_imac__crg641tip4q6_small_2x.jpg);
         background-size: cover;
     }
 
     .arcade{
-        background-image: url(/assets/img/responsive/promo_arcade__e7ps46tldi62_small.jpg);
+        background-image: url(apple_landing_page_clone/assets/img/responsive/promo_arcade__e7ps46tldi62_small.jpg);
         background-size: cover;
     }
 
     .one{
-        background-image: url(/assets/img/responsive/tile__cauwwcyyn9hy_small.jpg);
+        background-image: url(apple_landing_page_clone/assets/img/responsive/tile__cauwwcyyn9hy_small.jpg);
     }
 
     .airtag{
-        background-image: url(/assets/img/responsive/promo_airtag__e6b73a64nno2_small.jpg);
+        background-image: url(apple_landing_page_clone/assets/img/responsive/promo_airtag__e6b73a64nno2_small.jpg);
         background-size: cover;
     }
 
     .apple_tv{
-        background-image: url(/assets/img/responsive/apple_tv_promo.jpg);
+        background-image: url(apple_landing_page_clone/assets/img/responsive/apple_tv_promo.jpg);
         background-size: cover;
     }
 
