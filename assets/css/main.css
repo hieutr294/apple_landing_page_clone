@@ -5,6 +5,11 @@
     z-index: 100;
 }
 
+.main{
+    max-width: 2560px;
+    margin: 0 auto;
+}
+
 .main-nav{
     font-size: 1.4rem;
     background-color: rgba(0,0,0,0.9);
@@ -222,6 +227,7 @@
 }
 
 .footer__links{
+    border-top: #8f8f95 1px solid;
     display: flex;
 }
 
@@ -260,6 +266,7 @@
 .the-last__find-retailer{
     font-size: 1.2rem;
     color:#8f8f95;
+    margin-bottom: 10px;
 }
 
 .the-last__find-retailer a{
@@ -269,8 +276,9 @@
 
 .the-last__copyright{
     display: flex;
-    margin: 20px 0;
+    padding: 10px 0;
     justify-content: space-between;
+    border-top: #8f8f95 1px solid;
 }
 
 .the-last__copyright ul{
