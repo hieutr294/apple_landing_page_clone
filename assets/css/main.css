@@ -56,23 +56,27 @@
     font-size: 2rem;
 }
 
-.ip12{
+.general-hero{
     text-align: center;
-    background-image: url(/assets/img/iphone_12_updated__jepm2xpxncuy_large.jpg);
     background-position: center;
     height: 628px;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 48px;
+
 }
 
-.ip12__title{
+.ip12{
+    background-image: url(/assets/img/iphone_12_updated__jepm2xpxncuy_large.jpg);
+}
+
+.general-hero__title{
     font-size: 5.6rem;
     padding-top: 50px;
     margin: 0;
 }
 
-.ip12__sub-title{
+.general-hero__sub-title{
     font-size: 2.8rem;
     margin-top: 6px;
     margin-bottom: 0;
@@ -89,36 +93,9 @@
     margin: 10px 0;
 }
 
-.video-promo{
-    position: relative;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.video-promo__video{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-}
-
-.video-promo__logo{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.video-promo__logo a{
-    padding-top: 5px;
-    font-size: 2.1rem;
-    text-decoration: none;
-    color: black;
+.ipad-pro{
+    background-image: url(/assets/img/hero_ipad_pro_non_avail__fcrsmhs4b7ma_large.jpg);
+    color: white;
 }
 
 .another-product{
@@ -147,7 +124,9 @@
     padding-right: 10px;
 }
 
-.ipad,.watch,.airtag,.arcade,.imac,.one{
+.ipad,.watch,.airtag,.arcade,.imac,.one,.apple_tv{
+    display: flex;
+    flex-direction: column;
     height: 580px;
     background-position: center;
     background-repeat: no-repeat;
@@ -181,6 +160,16 @@
     background-repeat: no-repeat;
     background-position: bottom;
     background-color: #FBFBFD;
+}
+
+.apple_tv{
+    background-image: url(/assets/img/apple_tv_promo.jpg);
+    justify-content: end;
+    color: white;
+}
+
+.apple_tv .content{
+    padding-bottom: 100px;
 }
 
 .row{
@@ -432,11 +421,15 @@
         background-image: url(/assets/img/responsive/iphone_12_pro_us__e5oyysg4k0ya_small_2x.jpg);
     }
 
-    .ip12__title, .content{
+    .ipad-pro{
+        background-image: url(/assets/img/responsive/promo_ipad_pro__c529dk533k4m_small_2x.jpg);
+    }
+
+    .general-hero__title, .content{
         font-size: 3.2rem;
     }
     
-    .ip12__sub-title{
+    .general-hero__sub-title{
         font-size: 1.9rem;
     }
 
@@ -482,6 +475,11 @@
 
     .airtag{
         background-image: url(/assets/img/responsive/promo_airtag__e6b73a64nno2_small.jpg);
+        background-size: cover;
+    }
+
+    .apple_tv{
+        background-image: url(/assets/img/responsive/apple_tv_promo.jpg);
         background-size: cover;
     }
 
