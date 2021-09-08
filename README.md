@@ -1,3 +1,3 @@
-# apple_landing_page_clone
+# Apple Landing Page Clone
 
-Prewiew : https://hieutr294.github.io/apple_landing_page_clone/
+Preview : https://hieutr294.github.io/apple_landing_page_clone/
